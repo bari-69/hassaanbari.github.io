@@ -1,0 +1,39 @@
+Hassaan Bari - Curriculum Vitae
+=============================
+
+Personal Information
+-------------------
+Name: Hassaan Bari
+Email: hassaan.bari@example.com
+Phone: 123-456-7890
+Location: Lahore, Pakistan
+LinkedIn: linkedin.com/in/hassaanbari (To be created soon)
+
+Education
+---------
+Bachelor of Science in Computer Science
+Forman Christian College (A Chartered University), Lahore, Pakistan
+Expected Graduation: 2026
+
+Projects
+--------
+1. Library Management System
+   - Developed a database using SQL to manage library records.
+   - Handles over 5K entries with efficient querying.
+
+2. Flappy Bird Clone
+   - Built a simple game using Python and Pygame.
+   - Features smooth controls, basic physics, and a scoring system.
+
+3. To-Do List App
+   - A web-based app using HTML, CSS, and JavaScript.
+   - Allows users to add, edit, and delete tasks with local storage support.
+
+Skills
+------
+- Programming Languages: Python, JavaScript, SQL
+- Web Development: HTML, CSS, Bootstrap
+- Tools: Git, GitHub, VS Code
+- Problem-Solving and Debugging
+
+=============================

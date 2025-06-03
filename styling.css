@@ -1,0 +1,137 @@
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Gradient background for the body */
+.gradient-background {
+    background: linear-gradient(135deg, #e0e7ff 0%, #f3e8ff 100%);
+    min-height: 100vh;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #4f46e5 !important;
+}
+
+.navbar-brand:hover {
+    color: #3730a3 !important;
+}
+
+.nav-link {
+    font-weight: 400;
+    color: #4b5563 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #4f46e5 !important;
+}
+
+/* Section styling */
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    font-weight: 700;
+    color: #1f2937;
+    position: relative;
+    display: inline-block;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #4f46e5;
+}
+
+/* Content wrapper for CV */
+.content-wrapper {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-wrapper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling for preformatted CV text */
+pre {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #1f2937;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+    padding: 12px 24px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3730a3;
+    border-color: #3730a3;
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    pre {
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+    }
+}
